@@ -42,3 +42,16 @@ p multiply(4, 2)
   #   divide_result = divide( 10, 2 )
   #   assert_equal( 5, divide_result )
   # end
+
+  def length_of_string(str)
+    return str.length
+  end
+  # def test_length_of_string()
+  #   test_string = "A string of length 21"
+  #   length_of_string = length_of_string( test_string )
+  #   assert_equal( 21, length_of_string )
+  # end
+
+  def join_string(string_1, string_2)
+    return string_1 + string_2
+  end
